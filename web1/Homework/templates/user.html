@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Information</title>
+</head>
+<body>
+    <h1>Hello </h1>
+    {% for i in user_name %}
+        {% if username == i %}
+        <h2>Name : {{ user_name[username]["name"] }}</h2>
+        <h2>Age : {{ user_name[username]["age"] }}</h2>
+        <h2>Gender : {{ user_name[username]["gender"] }}</h2>
+        <h2>Hobbies : {{ user_name[username]["hobbies"] }}</h2>
+        {% endif %}
+    {% endfor %}
+        {% if username not in user_name %}
+        <h2>Sorry! User not found</h2>
+        {% endif %}
+
+    
+
+</body>
+</html>
