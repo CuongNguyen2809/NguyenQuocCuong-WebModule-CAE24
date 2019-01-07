@@ -15,13 +15,13 @@ def user(username):
             "name" : "Nguyễn Thị B",
             "gender" : "Female",
             "age" : "20",
-            "hobbies" : "read book"
+            "hobies" : "read book"
         },
         "c3" : {
             "name" : "Nguyễn Văn C",
             "gender" : "Men",
             "age" : "21",
-            "hobbies" : "game"
+            "hobies" : "game"
         }
     }
     return render_template("user.html",user_name=user_name ,username=username)

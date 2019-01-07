@@ -1,0 +1,2 @@
+Không bởi vì id giống như tên riêng của người,tránh trùng hợp và dễ dàng xác định được document đó
+Nó đại diện cho ObjectID
